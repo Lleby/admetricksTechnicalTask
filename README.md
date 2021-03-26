@@ -55,12 +55,12 @@ Including a request like:
 }
 ```
 
-Note that an instagram account is also requested for the log in[^1].
+Note that an instagram account is also requested for the log in [^1].
+
+[^1]: I have been trying to generate a service that does not require credentials. The only viable way, as far as I know, is by rotating proxies to avoid blocking by instagram. I found a simple way to do it through an [API for Web Scraping](https://webscraping.ai/), however before finishing the implementation I reached the limit of free access in webscraping.ia. I hope to finalize it when I can continue using the tool (04/04/2021).
 
 ### Run test
 
 Unit tests mocking requests to instagram data (and login):
 
 ```python manage.py test```   
-
-[^1]: I have been trying to generate a service that does not require credentials. The only viable way, as far as I know, is by rotating proxies to avoid blocking by instagram. I found a simple way to do it through an [API for Web Scraping](https://webscraping.ai/), however before finishing the implementation I reached the limit of free access in webscraping.ia. I hope to finalize it when I can continue using the tool (04/04/2021).
